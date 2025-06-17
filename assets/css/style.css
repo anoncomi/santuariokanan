@@ -36,10 +36,10 @@ Headers:		'Montserrat', sans-serif;
   z-index: 99;
 }
 .navigation.show-background {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #352508b3;
 }
 .navigation.show-background:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #352508e3;
 }
 .navigation.nav-btn-only .nav-btn {
   display: block;
@@ -610,16 +610,18 @@ dl dd {
 
 h1 {
   font-size: 72px;
-  font-weight: bold;
+  font-weight: regular;
   margin-top: 0;
   margin-bottom: 40px;
+  font-family: 'Cinzel';
 }
 
 h2 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: regular;
   margin-top: 5px;
   margin-bottom: 60px;
+  font-family: 'Cinzel';
 }
 
 h3 {
@@ -668,6 +670,8 @@ ul.check-marks li:before {
   font-family: 'ElegantIcons';
   speak: none;
   font-weight: normal;
+  font-size: 15px;
+  color: #9b815c;
   font-variant: normal;
   line-height: 1;
   text-transform: none;
@@ -719,7 +723,7 @@ ul.check-marks li:before {
   color: #000;
 }
 .background-is-dark .framed {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: #8a6d3b1c;
 }
 .background-is-dark .pricing-boxes .price-box .values figure {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -854,7 +858,7 @@ ul.check-marks li:before {
 }
 
 .framed {
-  border: 15px solid rgba(0, 0, 0, 0.05);
+  border: 15px solid #8a6d3b1c;
   padding: 25px;
 }
 
@@ -2601,7 +2605,7 @@ hr {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #9b815c;
   color: #fff;
   width: 60px;
   height: 60px;
@@ -2902,12 +2906,12 @@ textarea {
   box-shadow: none;
 }
 .btn.btn-primary {
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
+  background-color: #ffffff00;
+  color: #8a6d3b;
+  border-color: #8a6d3b;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:active:hover, .btn.btn-primary:focus {
-  background-color: #000;
+  background-color: #8a6d3b1c;
 }
 .btn.btn-primary.btn-framed {
   color: #000;
@@ -3077,7 +3081,7 @@ form .status i {
 /* 6. Responsive */
 @media (min-width: 992px) and (max-width: 1199px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   h1 {
@@ -3099,7 +3103,7 @@ form .status i {
   }
 
   p {
-    line-height: 18px;
+    line-height: 25px;
   }
 
   .block {
@@ -3160,7 +3164,7 @@ form .status i {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   blockquote {
@@ -3189,7 +3193,7 @@ form .status i {
   }
 
   p {
-    line-height: 16px;
+    line-height: 25px;
   }
 
   .block {
@@ -3617,4 +3621,11 @@ form .status i {
   .version-selector .version .description {
     margin-left: 0;
   }
+}
+i {
+  font-family: 'FontAwesome'; 
+  font-style:normal;
+}
+.checks {
+  font-size: 15px;
 }
